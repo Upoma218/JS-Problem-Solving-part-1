@@ -38,7 +38,7 @@ const persons = [
 const restPeople = persons.filter((person) => person.gender !== "female");
 const peopleWithName = restPeople.map((people) => people.name);
 
-// console.log(peopleWithName);
+console.log(peopleWithName);
 
 /* ----------------------------------------------------------------------- */
 
@@ -70,7 +70,7 @@ const books = [
 ];
 
 const bookTites = books.map((book) => book.title);
-// console.log(bookTites);
+console.log(bookTites);
 
 /* ----------------------------------------------------------------------- */
 
@@ -87,7 +87,7 @@ const double = (num) => num * 2;
 const add5 = (num) => num + 5;
 
 const finalResult = (num) => add5(double(square(num)));
-// console.log(finalResult(number));
+console.log(finalResult(number));
 
 /* ----------------------------------------------------------------------- */
 
@@ -124,7 +124,7 @@ const cars = [
 ];
 
 const sortingByYear = cars.sort((a, b) => a.year - b.year);
-// console.log(sortingByYear);
+console.log(sortingByYear);
 
 /* ----------------------------------------------------------------------- */
 
@@ -168,4 +168,4 @@ const modifyAge = (peoples, peopleName, newAge) => {
   return peoples;
 };
 modifyAge(peoples, "Rahim", 50);
-// console.log(modifyAge(peoples, "Rahim", 50), { peoples });
+console.log(modifyAge(peoples, "Rahim", 50), { peoples });
